@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!Dockerfile
+!docker-compose.yml
+!Makefile
+
+# ...even if they are in subdirectories
+!*/
