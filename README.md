@@ -4,8 +4,6 @@
 1. Run `docker-compose up`
 1. Install Nest.js
 
-    `Run make install`
+    `make install`
     
-1. Install Package
-
-    `npm install` or `yarn`
+1. Update Project Name in Package.json

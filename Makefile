@@ -1,2 +1,3 @@
 install:
-	@docker-compose exec app nest new . --skip-install
+	rm README.md
+	@docker-compose exec app nest new .
