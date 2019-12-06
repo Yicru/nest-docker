@@ -1,9 +1,17 @@
 # Nest.js Docker starter
 
-1. Clone this repository
-1. Run `docker-compose up`
-1. Install Nest.js
+## Installation
 
-    `make install`
-    
-1. Update Project Name in Package.json
+```bash
+$ docker-compose up
+
+# Open ash in a container
+$ docker-compose exec app ash
+
+# Delete README.md
+$ rm -f README.md
+
+$ Install Nest.js
+$ nest new . 
+```
+Update Project Name in Package.json after install
